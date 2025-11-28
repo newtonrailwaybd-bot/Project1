@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- mata Tage -->
+   <meta name="title" content="The World of Water">
+<meta name="description" content="Explore the wonders of water — the source of all life. Learn how water shapes our planet, sustains every living being, and why protecting every drop matters. From science and conservation to health and awareness, discover the power and beauty of water in one inspiring place.">
+<meta name="keywords" content="water information, facts about water, importance of water, water science, water resources, uses of water, water cycle, What is water">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="1 days">
+<meta name="author" content="Newton Biswas">
+<!-- Fevicon -->
+ <link rel="shortcut icon" href="./images/water-cycle.png" type="image/x-icon">
+
+  <title>Portfolio</title>
+  <meta name="description" content="My profession — Web developer | Designer | etc." />
+
+  <link rel="stylesheet" href="style.css">
+  <title>Contact</title>
+</head>
+<body>
+  <header class="container">
+    <div class="nav">
+      <div class="brand">
+        <div class="logo">
+          <img src="img/Newton.jpg" alt="N" onerror="this.style.display='none'; this.parentNode.innerHTML='N';">
+        </div>
+
+        <!-- <img src="img/Newton.jpg" alt="Avatar"> -->
+        <div>
+          <h1>Newton Biswas</h1>
+          <div class="muted" style="font-size:13px">Web Developer • UI/UX Designer</div>
+        </div>
+      </div>
+
+      <nav>
+        <button class="menu-btn" aria-expanded="false" aria-controls="menu" id="menuToggle">☰</button>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skill.html">Skill</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="flex">
+        <a class="cta" href="#contact">Hire Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="section-title"><div class="badge">Hi</div><h3>This is my designed profile.</h3></div>
+        <h2>Newton Biswas — Web Developer , UI/UX Designer</h2>
+        <p class="muted">I create modern, responsive and fast performing websites. Give me your project idea, I will implement it.</p>
+        <div class="actions">
+          <a class="cta" href="#contact">Hire Me</a>
+          <a class="muted" href="#portfolio">Portfolio</a>
+        </div>
+
+        <!-- Quick stats -->
+        <div style="margin-top:22px;display:flex;gap:12px">
+          <div class="card" style="padding:12px;border-radius:10px">40+ Projects</div>
+          <div class="card" style="padding:12px;border-radius:10px">10+ Clients</div>
+          <div class="card" style="padding:12px;border-radius:10px">5 yrs Experience</div>
+        </div>
+      </div>
+
+      <aside class="profile-card">
+        <div class="avatar">
+          <!-- Placeholder: change src to your photo -->
+          <img src="img/Newton.jpg" alt="Avatar">
+        </div>
+        <h4 style="margin-top:10px">আপনার নাম</h4>
+        <div class="role">Full Stack Developer</div>
+        <p class="muted" style="margin-top:8px">আপনি কি ফ্রিল্যান্সার বা কোম্পানির জন্য কাজ করছেন? এখানে একটি সংক্ষিপ্ত পরিচিতি লিখুন।</p>
+        <div style="margin-top:12px;display:flex;justify-content:center;gap:8px">
+          <a class="muted" href="#contact">📧 Email</a>
+          <a class="muted" href="#portfolio">💼 Portfolio</a>
+        </div>
+      </aside>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio">
+      <div class="section-title"><div class="badge">Portfolio</div><h3>কয়েকটি নির্বাচিত প্রোজেক্ট</h3></div>
+      <div style="margin-bottom:12px" class="flex">
+        <button data-filter="all">All</button>
+        <button data-filter="web">Web</button>
+        <button data-filter="design">Design</button>
+      </div>
+      <div class="projects" id="projects">
+        <article class="project" data-type="web">
+          <h4>Project One</h4>
+          <p class="muted">React • Node.js</p>
+          <div class="meta">Live • GitHub</div>
+        </article>
+        <article class="project" data-type="design">
+          <h4>Project Two</h4>
+          <p class="muted">Figma • Prototyping</p>
+          <div class="meta">Case Study</div>
+        </article>
+        <article class="project" data-type="web">
+          <h4>Project Three</h4>
+          <p class="muted">Static Site • HTML/CSS</p>
+          <div class="meta">Live</div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+      <div class="muted">© <span id="year"></span> Newton Biswas। All rights reserved.</div>
+      <div class="flex muted">Follow: <a href="#">LinkedIn</a> • <a href="#">GitHub</a></div>
+    </div>
+  </footer>
+  
+</body>
+</html>
